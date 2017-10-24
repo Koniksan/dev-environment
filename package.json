@@ -1,7 +1,6 @@
 {
-  "name": "tomograf",
+  "name": "projectName",
   "version": "1.0.0",
-  "description": "<p align=\"center\">     <img src=\"https://github.com/octobercms/october/blob/master/themes/demo/assets/images/october.png?raw=true\" alt=\"October\" width=\"25%\" height=\"25%\" /> </p>",
   "main": "webpack.config.js",
   "directories": {
     "test": "tests"
@@ -14,12 +13,10 @@
     "build-linux-production": "NODE_ENV=production webpack"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://Dmitriy_Kisel@bitbucket.org/lovata/tamograf.git"
+    "type": "git"
   },
   "author": "LOVATA",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/lovata/tamograf#readme",
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.25.0",
@@ -28,10 +25,6 @@
     "babel-preset-env": "^1.6.0",
     "css-loader": "^0.28.4",
     "cssnano": "^3.10.0",
-    "csso": "^3.1.1",
-    "csso-loader": "^0.3.1",
-    "csso-webpack-plugin": "^1.0.0-beta.7",
-    "debounce": "^1.0.2",
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^0.11.2",
     "jquery": "^3.2.1",

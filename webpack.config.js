@@ -1,5 +1,5 @@
 'use strict';
-const PROJECT_NAME = 'tomograf';
+const PROJECT_NAME = 'projectName'; // folder name in /themes/..
 
 const NODE_ENV = process.env.NODE_ENV || 'development';
 const WATCH = process.env.WATCH || false;
