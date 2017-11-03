@@ -6,11 +6,10 @@
     "test": "tests"
   },
   "scripts": {
-    "watch": "SET NODE_ENV=development&& SET WATCH=true&& webpack",
-    "watch-mobile": "SET NODE_ENV=development-mobile&& SET WATCH=true&& webpack",
-    "watch-linux": "NODE_ENV=development WATCH=true webpack",
-    "build-production": "SET NODE_ENV=production&& webpack",
-    "build-linux-production": "NODE_ENV=production webpack"
+    "dev-win": "SET NODE_ENV=development&& SET WATCH=true&& webpack",
+    "dev-win-prod": "SET NODE_ENV=production&& webpack",
+    "dev-linux": "NODE_ENV=development WATCH=true webpack",
+    "dev-linux-prod": "NODE_ENV=production webpack"
   },
   "repository": {
     "type": "git"
