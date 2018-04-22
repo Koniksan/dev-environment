@@ -8,13 +8,13 @@
   "scripts": {
     "dev-win": "SET NODE_ENV=development&& SET WATCH=true&& webpack",
     "dev-win-prod": "SET NODE_ENV=production&& webpack",
-    "dev-linux": "NODE_ENV=development WATCH=true webpack",
-    "dev-linux-prod": "NODE_ENV=production webpack"
+    "dev": "NODE_ENV=development WATCH=true webpack",
+    "dev-prod": "NODE_ENV=production webpack"
   },
   "repository": {
     "type": "git"
   },
-  "author": "LOVATA",
+  "author": "Dima K.",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^7.1.2",
